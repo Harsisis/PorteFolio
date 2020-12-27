@@ -1,0 +1,59 @@
+/*----------general-----------*/
+
+@font-face {
+    font-family: "comfortaa";
+    src: url("../assets/font/Comfortaa/static/Comfortaa-Medium.ttf");
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'comfortaa', sans-serif;
+    background: #2D498B;
+    background: -webkit-linear-gradient(to left, #23396C, #3759A9);
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*----------header-----------*/
+
+header{
+    width: 100%;
+    background-color: #1F1F1F;
+    color: #F5F5F5;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    height: 6vh;
+}
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header li:first-child, header li:nth-child(2){
+    margin-left: 4%;
+}
+header li {
+    display: inline;
+    margin-left: 2%;
+    width: 10%;
+    height: 10%;
+}
+header a{
+    color: #F5F5F5;
+    padding-bottom: 2%;
+}
+header a:hover{
+    border-bottom: 4px #F5F5F5 solid;
+}
+
+/*----------content-----------*/
+
+
+/*----------footer-----------*/

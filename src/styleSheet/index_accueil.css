@@ -36,7 +36,7 @@ header ul {
     padding: 0;
 }
 
-header li:first-child, li:nth-child(2){
+header li:first-child, header li:nth-child(2){
     margin-left: 4%;
 }
 header li {
@@ -179,20 +179,22 @@ header a:hover{
 
 footer{
     background-color: #1F1F1F;
-    margin: 0;
     padding-top: 2%;
     padding-bottom: 5%;
-    z-index: 1;
 }
 
 footer h4, a{
     color: #0A0A0A;
 }
 
-footer a, li{
-    margin: 0.5%;
+footer li{
+    margin: 1%;
+    width: 80%;
+}
+
+footer a:hover{
+    background-color: #849DD7;
     border-radius: 15px;
-    width: 70%;
 }
 
 .column {
