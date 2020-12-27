@@ -1,0 +1,153 @@
+/*----------general-----------*/
+
+@font-face {
+    font-family: "comfortaa";
+    src: url("../assets/font/Comfortaa/static/Comfortaa-Medium.ttf");
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'comfortaa', sans-serif;
+    background: #2D498B;
+    background: -webkit-linear-gradient(to left, #23396C, #3759A9);
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*----------header-----------*/
+
+header{
+    width: 100%;
+    background-color: #1F1F1F;
+    color: #F5F5F5;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    height: 6vh;
+}
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header li:first-child, header li:nth-child(2){
+    margin-left: 4%;
+}
+header li {
+    display: inline;
+    margin-left: 2%;
+    width: 10%;
+    height: 10%;
+}
+header a{
+    color: #F5F5F5;
+    padding-bottom: 2%;
+}
+header a:hover:not(.icon), .selected{
+    border-bottom: 4px #F5F5F5 solid;
+}
+
+/*----------content-----------*/
+
+.columnSB {
+    float: left;
+    padding: 10px;
+}
+.left, .right {
+    width: 45%;
+    background-color: #F5F5F5;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 20px;
+}
+.rowSB{
+    margin: 1%;
+}
+.rowSB:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.last{
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    margin: 2%;
+    width: 92%;
+    padding: 1%;
+}
+.last > .right{
+    padding-left: 31%;
+}
+table, tr, td{
+    border: #0A0A0A 1px solid;
+}
+td{
+    height: 6vh;
+}
+table {
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+}
+h5{
+    margin-bottom: 1.5%;
+}
+p{
+    font-size: 15px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.sneaky{
+    color: #696969;
+}
+
+
+/*----------footer-----------*/
+
+footer{
+    background-color: #1F1F1F;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+footer h4, a{
+    color: #0A0A0A;
+}
+
+footer li{
+    margin: 1%;
+    width: 80%;
+}
+
+footer a:hover{
+    background-color: #849DD7;
+    border-radius: 15px;
+}
+
+.column {
+    float: left;
+    width: 38%;
+    height: 20vh;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: #6584CD;
+    border-radius: 25px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer img{
+    border-radius: 3px;
+}
