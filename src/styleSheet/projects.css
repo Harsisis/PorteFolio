@@ -84,10 +84,10 @@ header a:hover:not(.icon), .selected{
 }
 .left {
     width: 55%;
-    border-right: 2px solid #1F1F1F;
 }
 .right {
     width: 35%;
+    border-left: 2px solid #1F1F1F;
 }
 .rowB:after {
     content: "";
