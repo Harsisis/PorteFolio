@@ -72,6 +72,7 @@ header a:hover:not(.icon), .selected{
 }
 .buble a{
     border-bottom: 2px solid #3759A9;
+    color: #0A0A0A;
 }
 .buble a:hover{
     color: #3759A9;
